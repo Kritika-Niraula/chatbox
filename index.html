@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----tailwind cdn-->
+    <script
+      src="https://kit.fontawesome.com/0ecbe17838.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--font awesome link-->
+  </head>
+  <body>
+    <div class="flex w-screen h-screen">
+      <div class="nav-bar">
+        <div
+          class="flex flex-col width-20 overflow-auto bg-zinc-950 items-center h-screen"
+        >
+          <div
+            class="flex justify-center flex-shrink-0 w-full h-16 font-serif p-8 text-neutral-300 text-3xl uppercase items-center text-center mt-2 mb-4"
+          >
+            ch
+          </div>
+          <div class="items-center capitalize">
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-comments"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">
+                All chats
+              </div>
+            </div>
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-file"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">work</div>
+            </div>
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-file"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">Meet</div>
+            </div>
+            <div
+              class="justify-center flex-shrink-0 w-full text-center mt-4 mb-8 cursor-pointer border-2 border-solid"
+            ></div>
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-calendar-days"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">
+                calender
+              </div>
+            </div>
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-square-poll-vertical"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">rating</div>
+            </div>
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-bookmark"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">saved</div>
+            </div>
+            <div
+              class="justify-center flex-shrink-0 w-full h-16 mt-auto text-neutral-300 text-center my-4 cursor-pointer"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <div class="font-sans text-neutral-300 text-xs pt-1">
+                settings
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----end of nav-bar-->
+
+      <div class="flex w-full overflow-auto bg-slate-900">
+        <div class="items-center flex-shrink-0 h-4 px-8 text-slate-300">
+          <div class="flex flex-col flex-grow p-4 overflow-auto">
+            <div
+              class="flex items-center flex-shrink-0 px-4 py-2.5 text-sm font-medium bg-gray-800 rounded-xl text-gray-400 w-68"
+            >
+              <div class="text-xl items-center pt-1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <span class="ml-4 leading-none">Search</span>
+            </div>
+          </div>
+          <!---end of search-bar-->
+          <div class="rounded-3xl text-xl text-slate-900 p-4 bg-gray-800">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="study-table.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Office chat
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  i want to ask you to pick...
+                </div>
+              </div>
+              <div class="tool-kit">
+                <div class="last-seen text-xs text-gray-400 text-right">
+                  4 m
+                </div>
+                <div class="icon">
+                  <div class="flex text-center items-center text-base">
+                    <div
+                      class="rounded-full text-xs bg-blue-400 mt-4 ml-8 self-center pt-1 w-6 h-6"
+                    >
+                      5
+                    </div>
+                    <div class="thumb-pin pt-4 pl-2.5 text-gray-400 text-sm">
+                      <i class="fa-solid fa-thumbtack"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-1.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Harry Fettal
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="tool-kit">
+                <div class="flex">
+                  <div class="double-check pr-2 text-gray-400 text-sm">
+                    <i class="fa-solid fa-check-double"></i>
+                  </div>
+                  <div class="last-seen text-xs text-gray-400 text-right">
+                    15 m
+                  </div>
+                </div>
+                <div
+                  class="thumb-pin items-center pt-2.5 text-right text-gray-400 text-sm"
+                >
+                  <i class="fa-solid fa-thumbtack"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-2.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Frank Graica
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="last-seen text-xs text-gray-400 text-right">
+                9:31 am
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-3.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Frank Garcia
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="tool-kit">
+                <div class="last-seen text-xs text-gray-400 text-right">
+                  15 m
+                </div>
+                <div
+                  class="thumb-pin items-center pt-2.5 pl-4 text-gray-400 text-sm"
+                >
+                  <i class="fa-solid fa-thumbtack"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-4.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Maria Gonzalez
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="last-seen text-xs text-gray-400 text-right">
+                9:31 am
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-5.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Maria Jeremy
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="last-seen text-xs text-gray-400 text-right">
+                Yesterday
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-6.png" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Ted Brother
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="last-seen text-xs text-gray-400 text-right">
+                9:31 am
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-7.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">Jenni Li</div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="tool-kit">
+                <div class="last-seen text-xs text-gray-400 text-right">
+                  Yesterday
+                </div>
+                <div class="icon">
+                  <div
+                    class="rounded-full text-center text-xs bg-blue-400 mt-4 ml-4 self-center pt-1 w-6 h-6"
+                  >
+                    5
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------>
+          <div class="text-xl text-slate-900 p-4">
+            <div class="flex justify-between m-auto">
+              <img class="image w-14 h-14 rounded-xl" src="person-8.jpeg" />
+              <div class="user-chat-box pl-4">
+                <div class="user-name text-base text-slate-300">
+                  Lili Willsion
+                </div>
+                <div class="message text-xs pt-2 text-gray-400 truncate">
+                  Our company needs to prepare
+                </div>
+              </div>
+              <div class="last-seen text-xs text-gray-400 text-right">
+                Yesterday
+              </div>
+            </div>
+          </div>
+          <!------------>
+        </div>
+        <!----end of chat-history-->
+        <div
+          class="items-center justify-center h-16 text-slate-300 ml-8 mt-4 text-slate-50 text-sm font-medium"
+        >
+          <div class="flex justify-between">
+            <div class="title">
+              <div class="text text-lg">Office Chat</div>
+              <div class="members text-sm text-gray-400">
+                45 members,24 Online
+              </div>
+            </div>
+            <div
+              class="flex h-16 px-8 text-slate-300 ml-auto text-sm font-medium rounded"
+            >
+              <div class="icons px-4 text-gray-400 text-lg">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="icons px-4 text-gray-400 text-lg">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="icons px-4 text-gray-400 text-lg">
+                <i class="fa-solid fa-table-columns"></i>
+              </div>
+              <div class="icons px-4 text-gray-400 text-lg">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </div>
+          </div>
+          <!---end of chat-box-title-->
+          <div class="chat-body justify-center w-2/3">
+            <div class="user-name text-xm ml-20 mt-8 mb-4 text-slate-300">
+              Harry Fettel
+            </div>
+            <div class="flex justify-between">
+              <img class="image w-12 h-12 rounded-2xl" src="person-1.jpeg" />
+              <div class="pizza-img ml-8 mr-8">
+                <img class="image rounded-2xl" src="pizza.jpg" />
+                <div class="flex justify-between">
+                  <div class="seen-by-users flex mt-4">
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      src="pastry.png"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-1.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="party-popper.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-4.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-5.jpeg"
+                    />
+                  </div>
+                  <div class="time">
+                    <div
+                      class="flex justify-between text-xs text-gray-400 mt-4"
+                    >
+                      <div class="eye-icon">
+                        <i class="fa-solid fa-eye"></i> 3
+                      </div>
+                      <div class="time ml-2">8:57</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----end of harry fettal-->
+          <div class="chat-box">
+            <div class="flex mt-8 mr-8">
+              <img
+                class="image w-12 h-12 rounded-2xl items-center"
+                src="person-8.jpeg"
+              />
+              <div class="message-box bg-gray-800 w-64 p-4 ml-8 rounded-2xl">
+                <div class="flex justify-between">
+                  <div class="user-name text-xm text-slate-300">Jenny Li</div>
+                  <div class="time text-xs text-gray-400">0:36,2.0 Mb</div>
+                </div>
+                <div class="text text-xs mt-2">
+                  I am on my way.I'll be there anytime soon
+                </div>
+                <div class="flex justify-between">
+                  <div class="seen-by-users flex mt-4">
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      src="pastry.png"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-1.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="party-popper.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-4.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-5.jpeg"
+                    />
+                  </div>
+                  <div class="time">
+                    <div
+                      class="flex justify-between text-xs text-gray-400 mt-4"
+                    >
+                      <div class="eye-icon">
+                        <i class="fa-solid fa-eye"></i> 3
+                      </div>
+                      <div class="time ml-2">8:57</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---end of jenny li-->
+          <div class="chat-box">
+            <div class="flex mt-8 mr-8">
+              <img
+                class="image w-12 h-12 rounded-2xl items-center"
+                src="person-6.png"
+              />
+              <div
+                class="message-box bg-gray-800 max-w-96 p-4 ml-8 rounded-2xl"
+              >
+                <div class="flex justify-between">
+                  <div class="user-name text-xm text-slate-300">
+                    Frank Garcia
+                  </div>
+                </div>
+                <div class="text text-xs mt-2">
+                  We'll start celebrating
+                  <span class="text-red-500">Olegi's</span>birthday soon
+                </div>
+                <div class="flex justify-between">
+                  <div class="seen-by-users flex mt-4">
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      src="pastry.png"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-1.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="party-popper.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-4.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-5.jpeg"
+                    />
+                  </div>
+                  <div class="time">
+                    <div
+                      class="flex justify-between text-xs text-gray-400 mt-4"
+                    >
+                      <div class="eye-icon">
+                        <i class="fa-solid fa-eye"></i> 3
+                      </div>
+                      <div class="time ml-2">8:57</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---end of frank garcia-->
+          <div class="chat-box">
+            <div class="flex mt-8 mr-8">
+              <img
+                class="image w-12 h-12 rounded-2xl items-center"
+                src="person-5.jpeg"
+              />
+              <div
+                class="message-box bg-gray-800 max-w-96 p-4 ml-8 rounded-2xl"
+              >
+                <div class="flex justify-between">
+                  <div class="user-name text-xm text-slate-300">
+                    Maria Jemery
+                  </div>
+                </div>
+                <div class="text text-xs mt-2">
+                  We're celebrating here at location.Hurry !!!!
+                </div>
+                <div class="flex justify-between">
+                  <div class="seen-by-users flex mt-4">
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      src="pastry.png"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-1.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="party-popper.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-4.jpeg"
+                    />
+                    <img
+                      class="avatar w-4 h-4 rounded-full ring-2 space-x-0.5 ring-transparent"
+                      style="margin-left: -3px"
+                      src="person-5.jpeg"
+                    />
+                  </div>
+                  <div class="time">
+                    <div
+                      class="flex justify-between text-xs text-gray-400 mt-4"
+                    >
+                      <div class="eye-icon">
+                        <i class="fa-solid fa-eye"></i> 3
+                      </div>
+                      <div class="time ml-2">9:05</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---end of frank garcia-->
+          <div class="chat-box">
+            <div class="flex justify-between mr-8 mt-8 text-gray-400">
+              <div class="text-base">
+                <i class="fa-solid fa-paperclip"></i
+                ><span class="ml-4">Your message</span>
+              </div>
+              <i class="fa-solid fa-microphone"></i>
+            </div>
+          </div>
+        </div>
+        <!---end of chat-body-->
+      </div>
+      <!---end of main-content-->
+      <div
+        class="side-bar w-2/6 bg-zinc-950 p-4 flex-col items-center h-screen overflow-auto"
+      >
+        <div class="flex justify-between">
+          <div class="chat-details text-lg text-slate-300">Chat Details</div>
+          <div class="icon-cross text-lg cursor-pointer text-slate-300">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <!---end of side-bar-heading-->
+        <div class="flex justify-between my-8">
+          <div class="icons text-xl text-slate-300 bg-gray-800 p-6 rounded-2xl">
+            <i class="fa-regular fa-bell"></i>
+          </div>
+          <div class="icons text-xl text-slate-300 bg-gray-800 p-6 rounded-2xl">
+            <i class="fa-regular fa-calendar"></i>
+          </div>
+          <div class="icons text-xl text-slate-300 bg-gray-800 p-6 rounded-2xl">
+            <i class="fa-solid fa-chart-simple"></i>
+          </div>
+          <div class="icons text-xl text-slate-300 bg-gray-800 p-6 rounded-2xl">
+            <i class="fa-solid fa-ban"></i>
+          </div>
+        </div>
+        <!----end of side-bar-icon----->
+        <div class="photos flex justify-between">
+          <div class="text text-slate-300 text-base">
+            Photos and Videos
+            <span class="numbers text-sm text-gray-400">104</span>
+          </div>
+          <div class="see-all text-gray-400 underline text-sm">See all</div>
+        </div>
+        <!--end of photos heading-->
+        <div class="photos flex justify-between my-4">
+          <img src="pizza.jpg" class="h-20 w-36 rounded-2xl" />
+          <div class="img relative">
+            <img src="discussion.jpg" class="h-20 w-36 rounded-2xl relative" />
+            <div
+              class="text-xs text-gray-200 bg-gray-400 absolute bottom-0 right-0 p-1 m-2 rounded-lg"
+            >
+              01:56
+            </div>
+          </div>
+        </div>
+        <!---end of photos-->
+        <div class="shared-files flex justify-between mt-8">
+          <div class="text text-slate-300 text-base">
+            Shared Files
+            <span class="numbers text-sm text-gray-400">1 384</span>
+          </div>
+          <div class="see-all text-gray-400 underline text-sm">See all</div>
+        </div>
+        <!--end of shared-files headig-->
+        <div class="shared-files">
+          <div class="flex mt-4 mb-4">
+            <div
+              class="icon bg-gray-800 p-4 text-xl items-center text-slate-300 rounded-lg"
+            >
+              <i class="fa-regular fa-file-lines"></i>
+            </div>
+            <div class="text text-slate-300 text-sm pl-4 pt-2">
+              Contact for the provison of printing services
+            </div>
+          </div>
+          <div class="flex mb-4">
+            <div
+              class="icon bg-gray-800 p-4 text-xl items-center text-slate-300 rounded-lg"
+            >
+              <i class="fa-regular fa-file-lines"></i>
+            </div>
+            <div class="text text-slate-300 text-sm pl-4 pt-2">
+              Changes in the schedule of the department of material...
+            </div>
+          </div>
+          <div class="flex mb-4">
+            <div
+              class="icon bg-gray-800 p-4 text-xl items-center text-slate-300 rounded-lg"
+            >
+              <i class="fa-regular fa-file-lines"></i>
+            </div>
+            <div class="text text-slate-300 text-sm pl-4 pt-2">
+              Contact for the provison of printing services
+            </div>
+          </div>
+        </div>
+        <!---end of shared-files-->
+        <div class="shared-files flex justify-between mt-8">
+          <div class="text text-slate-300 text-base">
+            Shared Links <span class="numbers text-sm text-gray-400">32</span>
+          </div>
+          <div class="see-all text-gray-400 underline text-sm">See all</div>
+        </div>
+        <!--end of shared-links-->
+        <div class="shared-links">
+          <div class="flex mt-4 mb-4">
+            <img src="dragon.jpeg" class="image rounded-lg w-12 h-12" />
+            <div class="text px-4">
+              <div class="text-slate-300 text-sm">Economic Policy</div>
+              <div class="text-xs text-gray-400 pt-2">
+                https://vm.fI/en/economic-policy
+              </div>
+            </div>
+          </div>
+          <div class="flex mb-4">
+            <img src="microsoft-logo.png" class="image rounded-lg w-12 h-12" />
+            <div class="text px-4">
+              <div class="text-slate-300 text-sm">Microsoft</div>
+              <div class="text-xs text-gray-400 pt-2">
+                https://www.microsoft.com/
+              </div>
+            </div>
+          </div>
+          <div class="flex mb-4">
+            <img src="dragon.jpeg" class="image rounded-lg w-12 h-12" />
+            <div class="text px-4">
+              <div class="text-slate-300 text-sm">OContact Information</div>
+              <div class="text-xs text-gray-400 pt-2">
+                https://vm.fI/en/economic-policy
+              </div>
+            </div>
+          </div>
+          <div class="flex mb-4">
+            <img src="usagov.jpeg" class="image rounded-lg w-12 h-12" />
+            <div class="text px-4">
+              <div class="text-slate-300 text-sm">
+                Official Guide to government...
+              </div>
+              <div class="text-xs text-gray-400 pt-2">https://www.usa.gov/</div>
+            </div>
+          </div>
+        </div>
+        <!----end of shared-links-->
+      </div>
+      <!----end of side-bar-->
+    </div>
+  </body>
+</html>
